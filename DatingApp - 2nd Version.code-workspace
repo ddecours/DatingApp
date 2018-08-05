@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"path": "DatingApp.Model"
+		},
+		{
+			"path": "DatingApp.Data"
+		},
+		{
+			"path": "DatingApp.API"
+		},
+		{
+			"path": "DatingApp.Migrations.Development"
+		},
+		{
+			"path": "DatingApp.Migrations.Production"
+		},
+		{
+			"path": "DatingApp-SPA"
+		}
+	],
+	"settings": {}
+}

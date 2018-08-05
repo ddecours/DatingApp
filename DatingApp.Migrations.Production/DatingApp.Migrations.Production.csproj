@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+    <!-- Project with data context -->
+    <ItemGroup>
+      <ProjectReference Include="..\DatingApp.Data\DatingApp.Data.csproj" />
+    </ItemGroup>
+
+    <!-- Database Provider -->
+    <ItemGroup>
+      <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.1.1" />
+    </ItemGroup>
+
+</Project>

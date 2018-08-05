@@ -1,0 +1,38 @@
+Steps:
+
+Environment Setup
+================================
+1. Installed latest .Net SDK
+https://www.microsoft.com/net/learn/get-started-with-dotnet-tutorial
+
+2. Install NodeJS
+https://nodejs.org/en/
+
+3. Install VSCode
+https://code.visualstudio.com/download
+
+4. Install PostMan
+https://www.getpostman.com/apps
+
+4. Install DB Browser for SQL Lite
+https://sqlitebrowser.org/
+
+
+Install VSCode C# extensions
+====================================
+	- C# for Visual Studio Code (powered by OmniSharp)
+	- C# Extensions by jchannon
+	- Nuget Package Manager by jmrog
+    - Material Icon Theme (Philipp Kief)
+
+
+Create the Project Structure
+====================================
+1. Create the WebAPI Project.  From the command line:
+
+dotnet new webapi -n DatingApp.API -o DatingApp2.API
+
+
+MISCELLANEOUS NOTES:
+Can update launchsettings.json to change url, ports, launch browser by default, etc.
+
